@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="icon" type="image/x-icon" href="browser.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <title>ReignDev</title>
 </head>
 
@@ -73,12 +74,27 @@ li.nav-link{
     font-weight: 300;
 }
 
-ul {
+li  {
       list-style-type: none;
       margin: 0;
       padding: 0;
     }
 
+.html{
+    color: #f06529;
+}
+
+.css{
+    color: #2965f1;
+}
+
+.js{
+    color: #f0db4f;
+}
+
+.php{
+    color: #8993be;
+}
 .content{
     display: flex;
     width: 100%;
@@ -239,11 +255,12 @@ button:hover{
                     </p><br>
                     <div class="languages">
                         <h3>Languages I know:</h3>
-                        <ul>
-                            <li><i class="fa-brands fa-html5"></i> HTML</a></li>
-                            <li><i class="fa-brands fa-css3"></i> CSS</a></li>
-                            <li><i class="fa-brands fa-js"></i> Little of JavaScript</a></li>
-                            <li><i class="fa-brands fa-php"></i> Little of PHP</a></li>
+                        <ul class="tags"></ul>
+                            <div class="html"><li><i class="fa-brands fa-html5"><a> HTML</a></i></div></li>
+                            <div class="css"><li><i class="fa-brands fa-css3"><a> CSS</a></i></div></li>
+                            <div class="js"><li><i class="fa-brands fa-js"><a> JavaScript</a></i></div></li>
+                            <div class="php"><li><i class="fa-brands fa-php"><a> PHP</a></i></div></li>
+                            
                           </ul>  
                     </div>
                     <a target="_blank" href="mailto:reign4web@gmail.com">
@@ -259,5 +276,4 @@ button:hover{
     </div>
 
 </body>
-
 </html>
